@@ -63,6 +63,8 @@ var parseStrong = function(str) {
   return str;
  }
 
+<<<<<<< HEAD
+=======
  var parseBlockQuote = function(str) {
   var quoteRegExp = /\:\"(.*?)\"\:/
   var stra = [];
@@ -71,6 +73,7 @@ var parseStrong = function(str) {
   }
   return str;
  }
+>>>>>>> 9382536d8e2fe207d3d64d6a337ab46c19f7abe0
 
 var markdown = {
   parse: function (str, strict) {
